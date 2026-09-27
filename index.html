@@ -200,6 +200,17 @@
   button:hover, a:hover {
     opacity: 0.7;
   }
+  .hero {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -235,7 +246,13 @@
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
-
+<section class="hero">
+    <img
+        src="azilehub.png"
+        alt="AzileHub DevOps, MLOps and AI Infrastructure"
+        class="hero-image"
+    >
+</section>
   <!-- Wrapper for slides -->
 <!--  <div class="carousel-inner">
     <div class="item active">
@@ -255,12 +272,12 @@
         <h3>High-Performance Computing (HPC) & LLMs</h3>
         <p>Scale workloads with Slurm, PBS Pro, and run high-speed AI inference pipelines using Ollama, vLLM, and Qdrant vector databases.</p>
       </div>
-    </div> -->
+    </div> 
   </div>
 </div>
 
 <p style="padding: 0 40px; margin-top: 30px;"><strong>MISSION:</strong> To equip engineers and system administrators with hands-on, end-to-end expertise across containerized platforms, high-performance workload orchestrators, and production AI stacks to power modern enterprise and research infrastructure.</p>
-</div>
+</div> -->
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid bg-grey">
